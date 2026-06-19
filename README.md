@@ -1,4 +1,4 @@
-# 🌍 RYPE
+# RYPE
 ## Risk Yield Propagation Engine
 
 ### Explainable Geopolitical Risk Propagation for Supply Chain Operations
