@@ -276,7 +276,7 @@ Accepted as an Oral Presentation and Full Paper:
 
 ---
 
-# Repository Structure
+# Next Repository Structure
 
 ```text
 RYPE/
