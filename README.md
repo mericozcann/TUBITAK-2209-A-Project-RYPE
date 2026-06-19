@@ -276,21 +276,46 @@ Accepted as an Oral Presentation and Full Paper:
 
 ---
 
-# Next Repository Structure
+# Repository Structure
 
 ```text
 RYPE/
 │
-├── Literature Reviews
-├── Research Reports
-├── Project Guidelines
-├── Academic Presentations
-├── Architecture Diagrams
-├── Data Collection Frameworks
-├── MVP Development Files
-├── Dashboard Designs
-├── Research Notes
-└── Future Research Plans
+├── README.md
+├── Return_Risk_Analysis.ipynb
+│
+├── Research Planning
+│   ├── 2209-A General Work Plan 15.08.25.pdf
+│   └── August and September 2025 Work Plan.pdf
+│
+├── Academic Outputs
+│   ├── Colloquium Presentation.pptx
+│   ├── Colloquium Written Statement.pdf
+│   ├── Abstract for the 7th International Congress of Applied Statistics.pdf
+│   └── 7th International Applied Statistics Congress Presentation.pptx
+│
+├── Literature Review
+│   ├── Risk Analysis in Maritime Transportation_ Literature Review.pdf
+│   ├── An Overview of Management in Maritime Transportation.html
+│   ├── Analysis of Maritime Accidents Using Bayesian Networks.html
+│   └── Last Mile Logistics Optimization.html
+│
+├── Modeling & Experiments
+│   └── Return_Risk_Analysis.ipynb
+│
+├── Research Evolution
+│   ├── Phase 1: Secure Cargo & Return Risk Prediction
+│   ├── Phase 2: Maritime & Logistics Risk Research
+│   ├── Phase 3: Black-Box Reconstruction & Leakage Analysis
+│   └── Phase 4: RYPE Framework Development
+│
+└── Future Development
+    ├── MVP Dashboard
+    ├── Live Data Integration
+    ├── AIS Vessel Tracking
+    ├── Copula-Based Dependency Modeling
+    ├── Reinforcement Learning Route Optimization
+    └── Graph-Based Risk Intelligence
 ```
 
 ---
