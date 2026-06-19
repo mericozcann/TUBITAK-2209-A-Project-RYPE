@@ -1,205 +1,376 @@
-# 🚢 AI-Driven Secure Cargo & Return Risk Optimization Platform  
-### Proactive, Explainable and Agile Decision Support System
+# 🌍 RYPE
+## Risk Yield Propagation Engine
 
-![Status](https://img.shields.io/badge/status-completed-success)
-![Methodology](https://img.shields.io/badge/methodology-agile-blue)
-![AI](https://img.shields.io/badge/AI-machine%20learning-orange)
-![Explainability](https://img.shields.io/badge/XAI-interpretable-green)
-![Domain](https://img.shields.io/badge/domain-logistics%20%26%20risk-informational)
+### Explainable Geopolitical Risk Propagation for Supply Chain Operations
+
+![Status](https://img.shields.io/badge/status-research%20prototype-blue)
+![Focus](https://img.shields.io/badge/focus-risk%20intelligence-informational)
+![Decision Science](https://img.shields.io/badge/decision-science-purple)
+![Network Science](https://img.shields.io/badge/network-propagation-orange)
+![Explainability](https://img.shields.io/badge/XAI-SHAP-green)
+![Research](https://img.shields.io/badge/research-UYIK%202026-success)
 ![License](https://img.shields.io/badge/license-academic-lightgrey)
 
 ---
 
-# AI-Driven Secure Cargo & Logistics Risk Analysis Platform
+# Overview
 
-**Project Advisor (Proje Danışmanı):**  
-Araş. Gör. Dr. Gözde KUŞ  
+**RYPE (Risk Yield Propagation Engine)** is an interdisciplinary risk intelligence and decision-support research framework designed to analyze how geopolitical, governance, trade, and operational disruptions propagate across supply chains.
 
-**Project Lead / Principal Investigator (Proje Yürütücüsü):**  
-Meriç Özcan  
+The project combines:
 
-**Project Team Members (Proje Ekip Üyeleri):**  
-- Buket Gürlek — Front-end Development (UI / UX, Web Interface)  
-- Mirgavam Gavami — Model Backend Development (In Progress)  
+- Statistics & Risk Modeling
+- Decision Science
+- Network Science
+- Explainable Artificial Intelligence (XAI)
+- Supply Chain Risk Analytics
 
----
+to generate interpretable risk intelligence rather than black-box disruption scores.
 
-## Abstract
+Originally initiated as an AI-driven cargo risk prediction study, the project evolved after the discovery of a major data leakage issue within a 650K+ record logistics dataset. Rather than reproducing a proprietary disruption score, RYPE focuses on understanding:
 
-This repository presents a **TÜBİTAK 2209-A–level, end-to-end artificial intelligence–based decision support system** developed to **predict, optimize, and manage operational risks** in secure cargo delivery, last-mile logistics, and product return processes.
+- Why disruptions emerge
+- How risk propagates
+- Which factors drive instability
+- What interventions may reduce risk
 
-The project focuses on replacing **reactive operational approaches** with a **proactive, risk-aware decision framework** by integrating machine learning–based risk prediction, probability optimization, and interpretable model outputs.  
-The resulting system is **academically rigorous**, **methodologically sound**, and **directly applicable to real-world operational environments**.
-
-The entire lifecycle of the project—from data preparation to model validation and final presentation—was executed in compliance with **Agile project management principles** and **academic research ethics**.
-
----
-
-## Keywords
-
-Artificial Intelligence · Risk Prediction · Secure Cargo Delivery · Last-Mile Logistics · Product Return Risk · Explainable Machine Learning · Decision Support Systems · Agile Project Management
+across suppliers, ports, routes, and last-mile operations.
 
 ---
 
-## 1. Project Objectives and Scope
+# Key Research Finding
 
-The primary objective of this project is to develop a **web-oriented, AI-driven decision support infrastructure** capable of:
+> **External Risk Realism ≠ Operational Realism**
 
-- Predicting **product return risk** at the individual order level  
-- Supporting **secure cargo and logistics optimization decisions**  
-- Producing **interpretable and actionable risk outputs**  
-- Enabling **process-level proactive risk management**  
-- Maintaining **academic validity and reproducibility**
+One of the central findings of the project is that realistic geopolitical indicators do not automatically generate realistic operational behavior.
 
-The system is designed to assist operational stakeholders **before shipment decisions are finalized**, thereby reducing cost, inefficiency, and uncertainty.
+During the research process, attempts to reconstruct a widely used disruption score from operational variables were unsuccessful, revealing a methodological gap between external risk indicators and actual operational dynamics.
+
+This observation motivated the transition from predictive black-box modeling toward mechanism-driven risk propagation analysis.
 
 ---
 
-## 2. System Architecture
+# Academic Positioning
 
-The system follows a **modular and scalable architecture**, ensuring robustness and extensibility.
+RYPE is positioned at the intersection of:
 
-### 2.1 Data Layer
-- Customer, order, category, logistics, and process-related variables  
-- Leakage-aware preprocessing and feature engineering  
-- Explicit handling of class imbalance  
+| Domain | Weight |
+|----------|----------|
+| Statistics & Risk Modeling | 30% |
+| Decision Science | 25% |
+| Network Science | 20% |
+| Explainable AI | 15% |
+| Supply Chain Analytics | 10% |
 
-### 2.2 Modeling & Analytics Layer
-- Supervised machine learning–based risk prediction  
-- Risk score generation and categorical risk classification  
-- Comparative evaluation across alternative algorithms  
-- Emphasis on **generalizability over metric maximization**
-
-### 2.3 Optimization Layer
-- Probability threshold optimization aligned with operational costs  
-- Iterative feedback loop for underperforming model paths  
-- Decision-oriented risk calibration  
-
-### 2.4 Presentation & Decision Layer
-- Human-interpretable outputs:
-  - Risk Score  
-  - Risk Class  
-  - Dominant Contributing Variables  
-  - Operational Interpretation  
-- Academic reporting and colloquium-ready visualization outputs  
+Machine Learning serves as an enabling component rather than the primary objective of the framework.
 
 ---
 
-## 3. Agile Development Lifecycle
+# Research Motivation
 
-The project was managed using **Agile methodology**, ensuring continuous validation and transparent progress tracking.
+Traditional supply chain risk models often focus on prediction accuracy while providing limited insight into:
 
-## 🔄 System Workflow & Decision Flow
+- Why disruptions occur
+- How risk spreads across networks
+- Which interventions are most effective
+- How experts should interact with model outputs
+
+RYPE aims to address these limitations by combining explainability, network propagation logic, uncertainty modeling, and expert-driven decision support.
+
+---
+
+# System Workflow & Decision Flow
 
 ```mermaid
 flowchart TD
-    A[System Initialization]
-    B[Data Collection and Evaluation]
-    C[Database Preparation]
-    D[Algorithm Development and Validation]
-    E[Probability Optimization]
-    F[Model Revision Loop - Feature and Model Update]
-    G[Web and Interface Integration]
-    H[System Testing and Optimization]
-    I[Final Delivery and User Presentation]
 
-    A --> B
-    B --> C
-    C --> D
+A[External Risk Sources]
 
-    D -->|Successful| E
-    D -->|Unsuccessful| F
-    F --> D
+A --> B1[ACLED Conflict Data]
+A --> B2[World Governance Indicators]
+A --> B3[Sanctions Data]
+A --> B4[Trade Restrictions]
+A --> B5[Port Network Data]
 
-    E --> G
-    G --> H
-    H --> I
+B1 --> C[Geo-Pressure Layer]
+B2 --> C
+B3 --> C
+B4 --> C
+B5 --> C
+
+C --> D[D1 Supplier Layer]
+
+D --> E[D2 Port Layer]
+
+E --> F[D3 Route Layer]
+
+F --> G[D4 Last Mile Layer]
+
+G --> H[Risk Propagation Engine]
+
+H --> I[Monte Carlo Simulation]
+
+H --> J[SHAP Explainability]
+
+H --> K[Counterfactual Analysis]
+
+I --> L[Decision Support]
+
+J --> L
+
+K --> L
+
+L --> M[Human-in-the-Loop Expert Review]
+
+M --> N[Operational Recommendations]
 ```
----
-
-## 4. Repository Structure
-
-| File | Description | Author |
-|---|---|---|
-| **2209-A General Work Plan 15.08.25.pdf** | TÜBİTAK-style general project plan | Meriç Özcan |
-| **August and September 2025 Work Plan.pdf** | Agile sprint planning and timeline | Meriç Özcan |
-| **Return_Risk_Analysis.ipynb** | Demo machine learning pipeline | Meriç Özcan |
-| **Risk Analysis in Maritime Transportation_Literature Review.pdf** | Academic literature foundation | Meriç Özcan |
-| **Analysis of Maritime Accidents Using Bayesian Networks.html** | Probabilistic risk modeling reference | Meriç Özcan |
-| **Last Mile Logistics Optimization.html** | Logistics optimization framework | Meriç Özcan |
-| **An Overview of Management in Maritime Transportation.html** | Managerial and operational context | Meriç Özcan |
-| **Colloquium Presentation.pdf** | Academic presentation material | Meriç Özcan |
-| **Colloquium Written Statement.pdf** | Formal written academic contribution | Meriç Özcan |
-| **index.html** | Web interface entry point (project landing page) | Buket Gürlek |
-| **script.js** | Front-end logic and interactivity | Buket Gürlek |
-| **style.css** | Front-end styling and layout | Buket Gürlek |
-| **Backend (in progress)** | Model backend development and integration | Mirgavam Gavami |
 
 ---
 
-## 5. Methodological Approach
+# Core Architecture
 
-Model evaluation was conducted with a **methodology-first perspective**, where predictive performance is assessed alongside:
+The framework models disruption propagation through four interconnected operational layers:
 
-- F1-Score and class stability  
-- Sensitivity to data leakage  
-- Robustness across validation splits  
-- Interpretability and decision relevance  
+| Layer | Description |
+|---------|---------|
+| D1 | Supplier Layer |
+| D2 | Port Layer |
+| D3 | Route Layer |
+| D4 | Last-Mile Layer |
 
-The project explicitly avoids **black-box optimization**, prioritizing **explainable and auditable modeling choices**.
-
----
-
-## 6. Explainability and Decision Support
-
-Each prediction generated by the system includes:
-
-- Continuous **risk score**
-- Discrete **risk class** (Low / Medium / High)
-- Key contributing features
-- Operationally meaningful interpretation
-
-This design ensures that model outputs **support human decision-making rather than replace it**, aligning with real operational and managerial needs.
+Rather than predicting a static disruption score, RYPE investigates how disruptions cascade throughout a supply chain network.
 
 ---
 
-## 7. Results and Outcomes
+# Data Sources
 
-The finalized system successfully delivers:
+The framework integrates multiple geopolitical and operational datasets:
 
-- A validated and leakage-aware ML pipeline  
-- Interpretable, decision-ready risk outputs  
-- Agile-compliant development documentation  
-- Reproducible academic deliverables  
-- Presentation-ready decision support artifacts  
+### Geopolitical Sources
 
----
+- ACLED Conflict Data
+- World Bank Governance Indicators (WGI)
+- EU / OFAC Sanctions Data
+- Trade Restriction Indicators
 
-## 8. Project Completion Criteria
+### Network Sources
 
-The project was formally concluded upon achieving:
+- UN/LOCODE Port Networks
+- Maritime Transportation Data
 
-- Fully integrated data, model, and decision layers  
-- Verified model robustness and interpretability  
-- Complete academic documentation  
-- Agile sprint closure with defined deliverables  
+### Operational Sources
 
----
-
-## 9. Conclusion
-
-This repository demonstrates a **holistic approach to AI-driven risk management**, combining:
-
-- Academic discipline  
-- Engineering best practices  
-- Agile methodology  
-- Decision-oriented analytics  
-
-It reflects not only **what was built**, but **how a serious, production-ready AI system should be designed and validated**.
+- Logistics Datasets
+- Delivery & Return Datasets
+- Supply Chain Operational Variables
 
 ---
 
-## License
+# Methodology
 
-This work is intended for **academic, educational, and research purposes**.  
-Commercial usage requires additional validation and domain-specific adaptation.
+Core methodological components include:
+
+### Black-Box Reconstruction Analysis
+
+- XGBoost
+- Random Forest
+- MLP
+- Regression-based reconstruction
+
+Used to investigate disruption score reproducibility and identify leakage-related anomalies.
+
+### Risk Modeling
+
+- Multi-factor risk scoring
+- Risk aggregation
+- Scenario evaluation
+
+### Network Propagation Analysis
+
+- D1-D4 propagation architecture
+- Cascading disruption modeling
+- Operational dependency mapping
+
+### Explainability & Decision Support
+
+- SHAP explainability
+- Counterfactual analysis
+- Human-in-the-Loop (HITL)
+- AHP-based expert weighting
+
+### Uncertainty Modeling
+
+- Monte Carlo simulation
+- Scenario-based assessment
+- Confidence-aware evaluation
+
+---
+
+# Evolution of the Project
+
+## Phase 1 — Secure Cargo & Return Risk Prediction
+
+Initial project scope:
+
+- Cargo security prediction
+- Return risk estimation
+- Machine learning classification
+- E-commerce logistics optimization
+
+## Phase 2 — Logistics & Maritime Risk Research
+
+Expanded focus:
+
+- Maritime transportation risks
+- Port operations
+- Supply chain disruptions
+- Network-oriented analysis
+
+## Phase 3 — Leakage Investigation
+
+A critical methodological anomaly was discovered:
+
+- Extremely high predictive performance
+- Black-box disruption score dependency
+- Reconstruction failure
+- Data leakage concerns
+
+This phase fundamentally changed the direction of the project.
+
+## Phase 4 — RYPE Framework
+
+Current research focus:
+
+- Geopolitical risk propagation
+- Explainable risk intelligence
+- Decision support systems
+- Human-in-the-loop intervention analysis
+
+---
+
+# Academic Outputs
+
+## 18th Statistics Student Colloquium
+
+Presented findings related to:
+
+**Methodological Anomaly in Supply Chain Risk Analysis:  
+Black-Box Metrics, Leakage Effects, and Reconstruction Failure**
+
+---
+
+## 7th International Congress of Applied Statistics (UYIK 2026)
+
+Accepted as an Oral Presentation and Full Paper:
+
+**RYPE: Explainable Geopolitical Risk Propagation for Operational Supply Chain Instability Analysis**
+
+---
+
+## Ongoing Academic Work
+
+- Journal manuscript preparation
+- Framework refinement
+- Additional validation studies
+- Future publication submissions
+
+---
+
+# Repository Structure
+
+```text
+RYPE/
+│
+├── Literature Reviews
+├── Research Reports
+├── Project Guidelines
+├── Academic Presentations
+├── Architecture Diagrams
+├── Data Collection Frameworks
+├── MVP Development Files
+├── Dashboard Designs
+├── Research Notes
+└── Future Research Plans
+```
+
+---
+
+# Current Status
+
+## Research Prototype → MVP Development
+
+Current activities include:
+
+- MVP dashboard development
+- Interactive risk visualization
+- Journal manuscript preparation
+- Framework refinement
+- Documentation standardization
+
+---
+
+# Future Roadmap
+
+Planned extensions include:
+
+### Data Integration
+
+- AIS vessel tracking
+- Port congestion intelligence
+- Real-time geopolitical monitoring
+- Historical disruption databases
+
+### Advanced Modeling
+
+- Propagation coefficient calibration
+- Copula-based dependency modeling
+  - Clayton Copula
+  - Gumbel Copula
+  - Vine Copula
+
+### Decision Intelligence
+
+- Reinforcement Learning route optimization
+- Multi-Agent Adaptive Models
+- Dynamic intervention policies
+
+### Network Analytics
+
+- Graph Neural Networks
+- Dynamic network evolution
+- Digital twin infrastructure
+
+---
+
+# Citation
+
+If you use this repository or build upon this research, please cite the related conference paper and acknowledge the RYPE framework.
+
+---
+
+# License
+
+This repository is intended for:
+
+- Academic Research
+- Educational Purposes
+- Non-Commercial Development
+
+Commercial deployment requires additional validation, real-world testing, and domain-specific adaptation.
+
+---
+
+## Author
+
+**Meriç Özcan**  
+Statistics Student | Risk Modeling & Decision Science | Explainable AI | Quantitative Research
+
+Ege University — Department of Statistics
+
+Research Interests:
+
+- Risk Modeling
+- Decision Science
+- Explainable AI
+- Network Science
+- Supply Chain Risk Analytics
